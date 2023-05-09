@@ -5,7 +5,7 @@ from pathlib import Path
 path_input = "input_files/"
 path_output="output_files/"
 
-filepaths = glob.glob("input_files/*.txt")
+filepaths = glob.globe("input_files/*.txt")
 
 for i, filepath in enumerate(filepaths):
     print(i)
